@@ -32,7 +32,7 @@ export default {
     historyApiFallback: true
   },
   resolve: {
-    extensions: ['.tsx', '.ts', '.js']
+    extensions: ['.tsx', '.jsx', '.ts', '.js', '.css']
   },
   module: {
     rules: [
