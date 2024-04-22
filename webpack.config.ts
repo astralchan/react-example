@@ -12,10 +12,10 @@ export default {
     main: './src/components/Main/Main.tsx'
   },
   output: {
-	filename: '[name].[contenthash].js',
-  chunkFilename: '[name].[contenthash].js',
-	path: path.resolve(__dirname, 'dist'),
-  publicPath: '/'
+	  filename: '[name].[contenthash].js',
+    chunkFilename: '[name].[contenthash].js',
+	  path: path.resolve(__dirname, 'dist'),
+    publicPath: '/'
   },
   optimization: {
     splitChunks: {
